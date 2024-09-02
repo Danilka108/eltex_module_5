@@ -1,0 +1,22 @@
+#ifndef LAB5_COMMON_H
+#define LAB5_COMMON_H
+
+enum {
+  LAB5_ATTR_UNSPEC,
+  LAB5_ATTR_MSG,
+  __LAB5_ATTR_MAX,
+};
+
+#define LAB5_ATTR_MAX (__LAB5_ATTR_MAX - 1)
+
+enum {
+  LAB5_CMD_UNSPEC,
+  LAB5_CMD_ECHO,
+  __LAB5_CMD_MAX,
+};
+
+#define LAB5_CMD_MAX (__LAB5_CMD_MAX - 1)
+
+#define LAB5_FAMILY_NAME "LAB5_FAMILY"
+
+#endif
