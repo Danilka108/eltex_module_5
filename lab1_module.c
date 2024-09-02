@@ -2,8 +2,8 @@
 #include <linux/kernel.h>
 #include <linux/init.h>
 
-MODULE_LICENSE("Danilka108License");
-/*MODULE_LICENSE("GPL");*/
+/*MODULE_LICENSE("Danilka108License");*/
+MODULE_LICENSE("GPL");
 MODULE_AUTHOR("danilka108");
 MODULE_DESCRIPTION("Danil Churikov first linux module");
 
