@@ -1,3 +1,6 @@
+.clangd
+.vscode
+
 # Prerequisites
 *.d
 
